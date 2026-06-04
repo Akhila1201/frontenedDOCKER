@@ -1,67 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-
-nav {
-  background: #222;
-  padding: 15px;
-  text-align: center;
-  position: sticky;
-  top: 0;
-}
-
-nav a {
-  color: white;
-  margin: 0 20px;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-nav a:hover {
-  color: #00bcd4;
-}
-
-section {
-  padding: 100px 20px;
-  text-align: center;
-  min-height: 300px;
-}
-
-#home {
-  background: #0073e6;
-  color: white;
-}
-
 #about {
-  background: #f4f4f4;
+    background-color: #d4f1d4; /* light green */
+    padding: 50px;
 }
 
-#services {
-  background: #e0e0e0;
+#skills {
+    background-color: #fff3cd; /* light yellow */
+    padding: 50px;
 }
 
-#contact {
-  background: #333;
-  color: white;
-}
-
-.links a {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background: #00bcd4;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.links a:hover {
-  background: #0097a7;
+#projects {
+    background-color: #f8d7da; /* light pink */
+    padding: 50px;
 }
